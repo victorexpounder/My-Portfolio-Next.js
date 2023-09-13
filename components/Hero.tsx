@@ -9,7 +9,6 @@ import { motion } from "framer-motion"
 const Hero = () => {
     const [text, count] = useTypewriter({
         words: [
-            
             "FullStack MERN Developer",
             "Mobile Developer"
         ],
