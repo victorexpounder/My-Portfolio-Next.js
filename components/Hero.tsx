@@ -3,7 +3,6 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import victor from '../images/victor.jpg'
 import Image from 'next/image'
-import resume from '../resources/resume.pdf'
 import Link from 'next/link'
 import { motion } from "framer-motion"
 
