@@ -32,8 +32,11 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
-, "components/Projects.tsx", "components/Header.jsx"  ],
+    ".next/types/**/*.ts",
+    "components/Projects.tsx",
+    "components/Header.jsx",
+    "my-custom-build-directory/types/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ]
