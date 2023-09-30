@@ -31,6 +31,9 @@ export const Projects = (props: Props) => {
                         <p className='mb-[0.5rem] '>Fullstack social food recipe sharing app that allows users share recipes, connect with one another and build awesome social presence by showing off their cognitive kitchen skills. Built with React, Redux, MongoDB, Node.js and  Express</p>
                         <div className="previewButtons flex gap-3">
                             
+                            <Link href={'https://yumz-frontend.vercel.app/feed'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                                <p>Demo</p>
+                            </Link>
                             <Link href={'https://github.com/victorexpounder/YUMZ-FullStack-Recipe-App'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Repo</p>
                             </Link>
@@ -46,10 +49,10 @@ export const Projects = (props: Props) => {
                         <h3 className='subtitle'>Yumz Landing Page</h3>
                         <p className='mb-[0.5rem] ' >This is a beautiful Landing page for a food delivery service, built with react, sass for styling, react router for routing</p>
                         <div className="previewButtons flex gap-3">
-                            <Link href={'/https://yumz-landing-page.vercel.app/'} className='py-[0.75rem] px-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'https://yumz-landing-page.vercel.app/'} className='py-[0.75rem] px-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Demo</p>
                             </Link>
-                            <Link href={'/https://github.com/victorexpounder/YUMZ-Landing-Pages'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'https://github.com/victorexpounder/YUMZ-Landing-Pages'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Repo</p>
                             </Link>
                         </div>
@@ -64,10 +67,10 @@ export const Projects = (props: Props) => {
                         <h3 className='subtitle'>FullStack Examination Management App</h3>
                         <p className='mb-[0.5rem]'>An advanced full-stack web app, with a computer-based environment, conducts tests, uploads results, and includes a secure admin dashboard. Directors, teachers, and principals sign in, manage questions, and access student results. Security features ensure director approval for dashboard access📚📈. Built with React, sass, MUI, context API and Firebase</p>
                         <div className="previewButtons flex gap-3">
-                            <Link href={'/https://react-cbt-system.vercel.app/'} className='py-[0.75rem] px-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'https://react-cbt-system.vercel.app/'} className='py-[0.75rem] px-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Demo</p>
                             </Link>
-                            <Link href={'/https://github.com/victorexpounder/React-CBT-System'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'https://github.com/victorexpounder/React-CBT-System'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Repo</p>
                             </Link>
                         </div>
@@ -85,7 +88,7 @@ export const Projects = (props: Props) => {
                             <Link href={'/'} className='py-[0.75rem] px-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Demo</p>
                             </Link>
-                            <Link href={'/'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'https://github.com/victorexpounder/My-Portfolio-Next.js'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Repo</p>
                             </Link>
                         </div>
