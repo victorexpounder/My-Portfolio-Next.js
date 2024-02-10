@@ -31,10 +31,10 @@ export const Projects = (props: Props) => {
                         <p className='mb-[0.5rem] '>Fullstack social food recipe sharing app that allows users share recipes, connect with one another and build awesome social presence by showing off their cognitive kitchen skills. Built with React, Redux, MongoDB, Node.js and  Express</p>
                         <div className="previewButtons flex gap-3">
                             
-                            <Link href={'https://yumz-frontend.vercel.app/feed'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'http://yumz.com.ng'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Demo</p>
                             </Link>
-                            <Link href={'https://github.com/victorexpounder/YUMZ-FullStack-Recipe-App'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
+                            <Link href={'https://github.com/victorexpounder/Yumz-Frontend'} className='p-[1rem] bg-[#784cb6] rounded-md items-center aboutText text-[#fff]' style={{color: '#fff'}}>
                                 <p>Repo</p>
                             </Link>
                         </div>
