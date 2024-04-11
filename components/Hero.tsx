@@ -42,7 +42,7 @@ const Hero = () => {
             <p className='aboutText'>
             I am Eze Victor, a tech virtuoso, mastering the MERN stack and conquering React Native. I craft digital wonders that leave users awestruck. Explore my world of unparalleled development expertise.
             </p>
-            <a download href='https://drive.google.com/file/d/1T79SEfPE3KoYnPPewO3em8Hds1qupsuK/view?usp=sharing' className='button bg-[#784cb6] p-4 rounded-md hover:bg-[#573588] ' style={{color: '#fff'}}>
+            <a download href='https://drive.google.com/file/d/1mVq7DcCz6mNzkiQAPbdokwUhJ11rXJ28/view?usp=sharing' className='button bg-[#784cb6] p-4 rounded-md hover:bg-[#573588] ' style={{color: '#fff'}}>
               Download Resume
             </a>
           </motion.div>
