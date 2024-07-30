@@ -1,7 +1,7 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
-import victor from '../images/victor.jpg'
+import victor from '../images/gitpic.png' 
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from "framer-motion"
