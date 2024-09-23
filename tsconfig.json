@@ -36,7 +36,7 @@
     "components/Projects.tsx",
     "components/Header.jsx",
     "my-custom-build-directory/types/**/*.ts"
-  ],
+, "fetchProjects.js", "contentfulClient.js"  ],
   "exclude": [
     "node_modules"
   ]
