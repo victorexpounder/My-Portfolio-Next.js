@@ -41,7 +41,7 @@ const Hero = () => {
             <p className='mb-7 max-w-[62ch] text-[0.95rem] leading-7 text-[#80849a] md:text-[1rem]'>
               I’m Eze Victor, a Full-Stack Engineer and builder focused on creating thoughtful, scalable digital products. I turn complex problems into intuitive experiences across web and mobile, while exploring the intersection of technology, creativity, and storytelling.
             </p>
-            <a download href='https://canva.link/z08ql805j9lzd22' className='inline-block rounded-xl bg-[#784cb6] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#573588]'>
+            <a download target='_blank' rel='noopener noreferrer' href='https://canva.link/z08ql805j9lzd22' className='inline-block rounded-xl bg-[#784cb6] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#573588]'>
               Download Resume
             </a>
           </motion.div>
@@ -60,7 +60,7 @@ const Hero = () => {
             className='p-0 m-0 w-full flex-1 items-center justify-center flex'>
             <Image className='rounded-full border-4 border-[#784cb6]/25 shadow-[0_20px_60px_rgba(120,76,182,0.25)] md:w-[320px] md:h-[320px]'
             src={victor}
-            alt="Picture of the author"
+            alt="Picture Victor Eze"
             width="200"
             height="180"
             />
