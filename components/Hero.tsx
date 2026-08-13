@@ -1,13 +1,11 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import BackgroundCircles from './BackgroundCircles'
 import victor from '../images/gitpic.png' 
 import Image from 'next/image'
-import Link from 'next/link'
 import { motion } from "framer-motion"
 
 const Hero = () => {
-    const [text, count] = useTypewriter({
+  const [text] = useTypewriter({
         words: [
             "FullStack MERN Developer",
             "Mobile Developer"
@@ -18,9 +16,9 @@ const Hero = () => {
     })
   return (
     <div className='pt-8 md:pt-0'>
-      <div className='flex-col items-center justify-center px-8 max-w-screen-md mx-auto'>
+      <div className='flex-col items-center justify-center px-6 md:px-8 max-w-screen-lg mx-auto'>
         {/* details */}
-        <div className='pt-14 flex flex-col-reverse gap-6 md:flex-row md:pt-0 md:gap-[2rem]'>
+        <div className='pt-14 flex flex-col-reverse gap-8 md:flex-row md:pt-0 md:gap-[2.5rem]'>
           {/* text details */}
           <motion.div
             initial ={{
@@ -33,16 +31,17 @@ const Hero = () => {
               opacity:1,
               scale: 1,
              }}
-            className='flex-1'>
-            <h1 className='headText md:text-6xl'> Hi, I'm Victor</h1>
-            <h3 className='subtitle'>
+            className='flex-1 rounded-3xl border border-[#784cb6]/20 bg-white/5 p-4 md:p-6'>
+
+            <h1 className='mb-2 text-4xl font-semibold leading-tight md:text-6xl'>Hi, I&apos;m Victor</h1>
+            <h3 className='mb-3 text-[1.05rem] font-medium text-[#7b7f95] md:text-[1.25rem]'>
               {text}
               <Cursor/>
             </h3>
-            <p className='aboutText'>
+            <p className='mb-7 max-w-[62ch] text-[0.95rem] leading-7 text-[#80849a] md:text-[1rem]'>
             I am Eze Victor, a tech virtuoso, mastering the MERN stack and conquering React Native. I craft digital wonders that leave users awestruck. Explore my world of unparalleled development expertise.
             </p>
-            <a download href='https://drive.google.com/file/d/1mVq7DcCz6mNzkiQAPbdokwUhJ11rXJ28/view?usp=sharing' className='button bg-[#784cb6] p-4 rounded-md hover:bg-[#573588] ' style={{color: '#fff'}}>
+            <a download href='https://canva.link/z08ql805j9lzd22' className='inline-block rounded-xl bg-[#784cb6] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#573588]'>
               Download Resume
             </a>
           </motion.div>
@@ -58,8 +57,8 @@ const Hero = () => {
               opacity:1,
               scale: 1,
              }}
-            className=' p-0 m-0 w-full flex-1 items-center justify-center flex'>
-            <Image className='rounded-full md:w-[300px] md:h-[300px]'
+            className='p-0 m-0 w-full flex-1 items-center justify-center flex'>
+            <Image className='rounded-full border-4 border-[#784cb6]/25 shadow-[0_20px_60px_rgba(120,76,182,0.25)] md:w-[320px] md:h-[320px]'
             src={victor}
             alt="Picture of the author"
             width="200"

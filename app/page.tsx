@@ -30,7 +30,7 @@ const page = () => {
    </section>
 
    <motion.section 
-   id='skills' className='pt-[6rem] overflow-x-hidden'>
+   id='skills' className='pt-[6rem] overflow-x-hidden h-fit'>
     <Skills/>
    </motion.section>
 
@@ -39,8 +39,8 @@ const page = () => {
    whileInView={{ opacity: 1, scale: 1 }}
    transition={{duration: 0.5, }}
   
-   id='projects' className='mt-[6rem] flex items-center justify-center box-border'>
-    <Projects/>
+  id='projects' className='mt-[6rem] flex items-center justify-center box-border'>
+   <Projects darkTheme={darkTheme} />
    </motion.section>
 
    <motion.section
