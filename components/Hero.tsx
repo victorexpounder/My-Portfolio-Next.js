@@ -39,7 +39,7 @@ const Hero = () => {
               <Cursor/>
             </h3>
             <p className='mb-7 max-w-[62ch] text-[0.95rem] leading-7 text-[#80849a] md:text-[1rem]'>
-            I am Eze Victor, a tech virtuoso, mastering the MERN stack and conquering React Native. I craft digital wonders that leave users awestruck. Explore my world of unparalleled development expertise.
+              I’m Eze Victor, a Full-Stack Engineer and builder focused on creating thoughtful, scalable digital products. I turn complex problems into intuitive experiences across web and mobile, while exploring the intersection of technology, creativity, and storytelling.
             </p>
             <a download href='https://canva.link/z08ql805j9lzd22' className='inline-block rounded-xl bg-[#784cb6] px-5 py-3 text-sm font-medium text-white transition hover:bg-[#573588]'>
               Download Resume
